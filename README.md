@@ -1,15 +1,20 @@
 # Sattionary Sales Analysis
-
+----
 ## Table of Contents
 
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Recommendations](#recommendations)
 
+----
 
 ## Project Overview
 
 This data analysis project aims to provide insights into sales of an stationary manufacturing company over past year. By analyzing various aspects of the stationary sales data, I seek to identify trends, make data driven recommendation, and gain the deeper understanding of the company's recommendation.
+
+< AxesSubplot:xlabel='Rep'>
+
+![Screenshot 2024-02-13 223822](https://github.com/Devika-0R/Stationary_sales/assets/153339996/e09eb6e0-914e-45ea-96ae-aa0a1dd40508)
 
 ## Data Sources
 
@@ -34,7 +39,22 @@ EDA involved exploring the sales data to answer key questions. such as,
 - What are the peak sales period?
 - What is the overall sales?
 
-## Data analysis
+## Data Analysis
+Included some interesting measures and calculations such as;
+
+
+| Most Sold Rep = 
+{
+var A = Sales
+var B = MAXX(A,Sales[Units])
+var C = FILTER(A, Sales[Units]=B)
+var D = MAXX(C,Sales[Rep])
+Return D
+}|
+
+
+
+## Result
 
 The analysis results are summarized as follows:
 1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the exam period (School days).
