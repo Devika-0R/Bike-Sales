@@ -42,16 +42,7 @@ EDA involved exploring the sales data to answer key questions. such as,
 ## Data Analysis
 Included some interesting measures and calculations such as;
 
-
-| Most Sold Rep = 
-{
-var A = Sales
-var B = MAXX(A,Sales[Units])
-var C = FILTER(A, Sales[Units]=B)
-var D = MAXX(C,Sales[Rep])
-Return D
-}|
-
+![Screenshot 2024-02-13 230647](https://github.com/Devika-0R/Stationary_sales/assets/153339996/06f806fc-d710-4be4-98c2-e5906726216f)
 
 
 ## Result
