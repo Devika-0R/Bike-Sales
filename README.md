@@ -16,10 +16,18 @@ Sales Data: The primary dataset used for this analysis is "Stationary sales.csv"
 ## Data cleaning / Data preparation
 
 In the initial data preparation phase, I performed the folllowing tasks:
-1.Data loading and inspection.
-2.Handling missing values.
-3.Data cleaninig and formatting.
+ 1. Data loading and inspection.
+ 2. Handling missing values.
+ 3. Data cleaninig and formatting.
 
 ## Explotary data analysis
 EDA involved exploring the sales data to answer key questions. such as,
+
+- Which products are top sellers?
+- What are the peak sales period?
+- What is the overall sales?
+
+## Data analysis
+
+
 
