@@ -18,7 +18,7 @@ This data analysis project aims to provide insights into sales of an stationary 
 
 ## Data Sources
 
-Sales Data: The primary dataset used for this analysis is "Stationary sales.csv" file, containing detailed information about each sale made by the company.
+Sales Data: The primary dataset used for this analysis is "Stationary sales.xlsxv" file, containing detailed information about each sale made by the company.
 
 ## Tools Used
 
